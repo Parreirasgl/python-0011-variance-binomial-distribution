@@ -35,3 +35,30 @@ for i3 in list_variations_squared:
 
 print(f"Variance: {total_variations_squared / NUMBER_SIMULATIONS}")
 
+
+###
+
+
+number_successes = 0
+list_variations = []
+total_variations = 0
+
+for i in range(NUMBER_SIMULATIONS):
+
+    for i2 in range(TRIALS):
+        random_number = randint(0, 1)
+        if random_number == 1:
+            number_successes += 1
+
+    variation = number_successes - MEAN
+    number_successes = 0
+
+    if variation < 0:
+       variation *= -1
+
+    list_variations.append(variation)
+
+for i3 in list_variations:
+    total_variations = total_variations + i3
+
+print(f"Absolute mean deviation: {total_variations / NUMBER_SIMULATIONS}")
