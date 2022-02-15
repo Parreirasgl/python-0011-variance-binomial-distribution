@@ -1,3 +1,13 @@
+# I've learned how to calculate the variance of a binomial distribution.
+# I've calculated that the variance of a binomial distribution,
+# in the case of 5 flips of a coin, is 1.25.
+# I decided to do a simulation to prove that result.
+
+# Aprendi a calcular a variância de uma distribuição binomial.
+# Calculei que a variância da distribuição binomial,
+# no caso de 5 lançamentos de uma moeda, é 1.25.
+# Resolvi fazer uma simulação para comprovar esse resultado.
+
 from random import randint
 
 number_successes = 0
