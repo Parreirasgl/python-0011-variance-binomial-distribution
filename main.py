@@ -2,11 +2,13 @@
 # I've calculated that the variance of a binomial distribution,
 # in the case of 5 flips of a coin, is 1.25.
 # I decided to do a simulation to prove that result.
+# And I made a simulation for absolute mean deviation as well.
 
 # Aprendi a calcular a variância de uma distribuição binomial.
 # Calculei que a variância da distribuição binomial,
 # no caso de 5 lançamentos de uma moeda, é 1.25.
 # Resolvi fazer uma simulação para comprovar esse resultado.
+# Aproveitei e fiz uma simulação para desvio médio absoluto também.
 
 from random import randint
 
